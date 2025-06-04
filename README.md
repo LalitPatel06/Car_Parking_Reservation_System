@@ -21,16 +21,16 @@ This is a web-based **Car Parking Reservation System** built using JSP, Servlets
 - **Backend**: Java, Servlets, JSP
 - **Database**: MySQL (with JDBC for connectivity)
 - **IDE**: NetBeans
-- **Version Control**: Git & GitHub![Screenshot 2025-06-04 233659](https://github.com/user-attachments/assets/8c21c99c-a18e-45b8-b082-95ed51caa3d5)
+- **Version Control**: Git & GitHub
 
 
 ---
 ## 📸 Screenshots
 
-###  Home Page
+### 🏠 Home Page
 ![Home Page](https://github.com/LalitPatel06/Car_Parking_Reservation_System/blob/607ca9159cabd160b1cd131b99f73e97c7256c87/Screenshot%202025-06-04%20233638.png)
 
-### Registration Page
+### 📝 Registration Page
 ![Registration Page](https://github.com/user-attachments/assets/8c21c99c-a18e-45b8-b082-95ed51caa3d5)
 
 ### 🔐 Login Page
@@ -39,12 +39,11 @@ This is a web-based **Car Parking Reservation System** built using JSP, Servlets
 ### 📅 User Booking Page
 ![User Booking](https://github.com/user-attachments/assets/2caa9f34-0f9e-4463-9159-c91a936783a1)
 
-### Booking Slots Page
+### 📅 Booking Slots Page
 ![Booking Slots](https://github.com/user-attachments/assets/a25ed808-0772-4b15-aa1c-c2ea32d8cf5b)
 
-### Today Booking Page
+### 📅 Today Booking Page
 ![Today Booking](https://github.com/user-attachments/assets/ffff6721-54d0-4e53-a711-6ef291d60ce6)
-
 
 ### 📊 Booking History and Edit Profile Page
 ![Booking History and Edit Profile](https://github.com/user-attachments/assets/52efa337-f0eb-4b9d-b96d-f8cb9c8376c3)
@@ -52,7 +51,7 @@ This is a web-based **Car Parking Reservation System** built using JSP, Servlets
 ### 🏠 Admin Dashboard
 ![Admin Dashboard](https://github.com/user-attachments/assets/9b108d78-fee4-430b-84c0-6db90883e3ad)
 
-### View Users Page and View Booking Page
+### 📊 View Users Page and View Booking Page
 ![View Users and View Booking](https://github.com/user-attachments/assets/1c73acde-0a99-46c9-8712-46a52e5aeadc)
 
 
