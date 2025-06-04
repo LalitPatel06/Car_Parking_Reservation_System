@@ -24,6 +24,10 @@ This is a web-based **Car Parking Reservation System** built using JSP, Servlets
 - **Version Control**: Git & GitHub
 
 ---
+## 📸 Screenshots
+
+###  Home Page
+![Home Page](https://github.com/LalitPatel06/Car_Parking_Reservation_System/blob/607ca9159cabd160b1cd131b99f73e97c7256c87/Screenshot%202025-06-04%20233638.png)
 
 ## 📁 Project Structure
 
