@@ -18,6 +18,12 @@ Includes Dashboard, Today’s Bookings, All Bookings, and Profile sections for u
  
  -> 🎨 Responsive UI with JSP, HTML, and CSS.
 
+🛠️ Tech Stack
+Frontend: HTML, CSS
+Backend: Java, Servlets, JSP
+Database: MySQL (with JDBC for connectivity)
+IDE: NetBeans
+Version Control: Git & GitHub
 
 📁 Project Structure
 CarParkingSystem/
@@ -70,7 +76,6 @@ To run this project locally, follow these steps to set up the database:
 
    In your Java files (for example, `DBConnection.java` or any config files), update the database URL, username, and password to match your local MySQL setup.
 
----
 
 🚀 How to Run
 
