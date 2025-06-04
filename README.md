@@ -2,8 +2,8 @@
 
 📋 Project Overview : 
 - This is a web-based **Car Parking Reservation System** built using JSP, Servlets, MySQL, and deployed on GlassFish server. The system allows users to book parking slots, view their bookings, and manage profiles. Admins and users have separate panels with respective functionalities.
-
-⭐ Key Features
+---
+⭐ Key Features '''
  -> 🚗 Car Parking Slot Booking
 Users can book parking slots easily via the user-friendly booking page.
 
@@ -17,7 +17,7 @@ Admin can manage all bookings, view reports, and control system settings.
 Includes Dashboard, Today’s Bookings, All Bookings, and Profile sections for users.
  
  -> 🎨 Responsive UI with JSP, HTML, and CSS.
-
+---
 🛠️ Tech Stack
 
 - Frontend: HTML, CSS
@@ -25,7 +25,7 @@ Includes Dashboard, Today’s Bookings, All Bookings, and Profile sections for u
 - Database: MySQL (with JDBC for connectivity)
 - IDE: NetBeans
 - Version Control: Git & GitHub
-
+---
 
 📁 Project Structure
 ```
@@ -48,7 +48,7 @@ Includes Dashboard, Today’s Bookings, All Bookings, and Profile sections for u
 └── 📄 README.md                   # This README file
 ```
 
-
+---
 🗄️ Database Setup
 To run this project locally, follow these steps to set up the database:
 
@@ -97,7 +97,7 @@ To run this project locally, follow these steps to set up the database:
 
 5. Use the login page to access the system with appropriate credentials.
 
-
+---
 📦 Dependencies
 
 - ☕ Java JDK 8+
@@ -106,7 +106,7 @@ To run this project locally, follow these steps to set up the database:
 - 🔌 MySQL Connector/J JDBC Driver
 - 🖥️ IDE: NetBeans or Eclipse (recommended)
 
-
+---
 📞 Contact
 
 For any issues or questions, please contact **Lalit Patel** at:  
