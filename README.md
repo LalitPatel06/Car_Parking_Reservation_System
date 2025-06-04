@@ -40,10 +40,10 @@ This is a web-based **Car Parking Reservation System** built using JSP, Servlets
 ![User Booking](https://github.com/user-attachments/assets/2caa9f34-0f9e-4463-9159-c91a936783a1)
 
 ### Booking Slots Page
-![Booking Slots](https://github.com/user-attachments/assets/a9d9e611-5e0f-481e-85bf770e1a7f6b30)
+![Booking Slots](https://github.com/user-attachments/assets/a25ed808-0772-4b15-aa1c-c2ea32d8cf5b)
 
 ### Today Booking Page
-![Today Booking](https://github.com/user-attachments/assets/be8ec704-bad9-422c-976500d2b5511b16)
+![Today Booking](https://github.com/user-attachments/assets/ffff6721-54d0-4e53-a711-6ef291d60ce6)
 
 
 ### 📊 Booking History and Edit Profile Page
