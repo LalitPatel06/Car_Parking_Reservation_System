@@ -28,7 +28,7 @@ Includes Dashboard, Today’s Bookings, All Bookings, and Profile sections for u
 
 
 📁 Project Structure
-
+```
 - CarParkingSystem/
 │
 ├── 🗄️ car_parking.sql                # Database export file
@@ -46,6 +46,7 @@ Includes Dashboard, Today’s Bookings, All Bookings, and Profile sections for u
 │   ├── 🔌 mysql-connector.jar      # MySQL Connector/J library
 │   └── ...                        # Other libraries like JDK, GlassFish server
 └── 📄 README.md                   # This README file
+```
 
 
 🗄️ Database Setup
