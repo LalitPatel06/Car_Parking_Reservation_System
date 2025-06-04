@@ -1,7 +1,7 @@
  🚗 Car Parking Reservation System
 
 📋 Project Overview : 
-This is a web-based **Car Parking Reservation System** built using JSP, Servlets, MySQL, and deployed on GlassFish server. The system allows users to book parking slots, view their bookings, and manage profiles. Admins and users have separate panels with respective functionalities.
+- This is a web-based **Car Parking Reservation System** built using JSP, Servlets, MySQL, and deployed on GlassFish server. The system allows users to book parking slots, view their bookings, and manage profiles. Admins and users have separate panels with respective functionalities.
 
 ⭐ Key Features
  -> 🚗 Car Parking Slot Booking
@@ -29,7 +29,7 @@ Includes Dashboard, Today’s Bookings, All Bookings, and Profile sections for u
 
 📁 Project Structure
 
-CarParkingSystem/
+- CarParkingSystem/
 │
 ├── 🗄️ car_parking.sql                # Database export file
 ├── 🌐 Web Pages/
