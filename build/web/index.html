@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Parking Reservation System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="styles.css">
+<style>
+    
+body {
+    background: url('images/carparking6.jpg') ;
+    /*background-size: contain;*/  
+    background-size: cover;
+/* Shows full image */
+}
+
+
+@media (min-aspect-ratio: 1000/780) {
+    body {
+        background-size: auto 100vh;
+    }
+}
+
+@media (max-aspect-ratio: 1000/780) {
+    body {
+        background-size: 100vw auto;
+    }
+}
+
+</style>
+</head>
+<body>
+
+    <header>
+        <div class="title">Car Parking Reservation System</div>
+        <div class="nav-links">
+            <a href="register.jsp">Register</a>
+            <a href="login.jsp">Login</a>
+            <a href="contact.jsp">Contact</a>
+        </div>
+    </header>
+
+    <section class="hero1">
+        <h1>Smart Parking Starts Here</h1>
+        <p>Book your car parking slot online and avoid the hassle of searching for parking spots. Easy, fast, and secure!</p>
+        <button onclick="location.href='login.jsp'">Book Now</button>
+    </section>
+
+    
+    <footer>
+        &copy; 2025 Car Parking Reservation System. All rights reserved.
+    </footer>
+
+</body>
+</html>

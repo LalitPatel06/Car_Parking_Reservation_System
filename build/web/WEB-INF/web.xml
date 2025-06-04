@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee 
+                             http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>registerServlet</servlet-name>
+        <servlet-class>registerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>loginServlet</servlet-name>
+        <servlet-class>loginServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>bookSlotServlet</servlet-name>
+        <servlet-class>bookSlotServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cancelBookingServlet</servlet-name>
+        <servlet-class>cancelBookingServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChangeAdminPasswordServlet</servlet-name>
+        <servlet-class>ChangeAdminPasswordServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>adminDashboardServlet</servlet-name>
+        <servlet-class>adminDashboardServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ChangeAdminPasswordServlet1</servlet-name>
+        <servlet-class>ChangeAdminPasswordServlet1</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>registerServlet</servlet-name>
+        <url-pattern>/registerServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>loginServlet</servlet-name>
+        <url-pattern>/loginServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>bookSlotServlet</servlet-name>
+        <url-pattern>/bookSlotServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cancelBookingServlet</servlet-name>
+        <url-pattern>/cancelBookingServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChangeAdminPasswordServlet</servlet-name>
+        <url-pattern>/ChangeAdminPasswordServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>adminDashboardServlet</servlet-name>
+        <url-pattern>/adminDashboardServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ChangeAdminPasswordServlet1</servlet-name>
+        <url-pattern>/ChangeAdminPasswordServlet1</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+        <session-timeout>30</session-timeout>
+    </session-config>
+
+</web-app>

@@ -1,0 +1,310 @@
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body, html { height: 100%; font-family: 'Segoe UI', sans-serif; }
+/*
+body {
+   background: url('images/Parking.jpeg') no-repeat center center fixed;
+background-size: cover;
+}*/
+
+body {
+   background: url('images/carparking.jpg') no-repeat center center fixed;
+background-size: cover;
+}
+
+
+
+        header {
+            background-color: rgba(0, 0, 0, 0.75);
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .title {
+            color: #f1c40f;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #f1c40f;
+        }
+
+        .hero1 {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: calc(100vh - 80px);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 20px;
+        }
+
+        .hero1 h1 {
+            font-size: 50px;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .hero1 p {
+            font-size: 20px;
+            max-width: 700px;
+            margin-bottom: 25px;
+        }
+
+        .hero1 button {
+            padding: 12px 25px;
+            background-color: #f1c40f;
+            border: none;
+            color: black;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero1 button:hover {
+            background-color: #e1b100;
+        }
+
+        /* external.css for Registration page */
+/* Container styles */
+.hero {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 25px 30px;
+background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+/*  box-shadow: 0 4px 14px rgb(0 0 0 / 0.15);*/
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Form title */
+.hero h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #333333;
+}
+
+/* Each row: label and input side by side */
+.form-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+/* Label styling */
+.form-row label {
+  flex: 0 0 190px; /* fixed width for labels */
+  font-weight: 500;       /* make it bolder */
+  color: #000000;         /* darker font color (black) */
+  font-size: 1.1rem;      /* increase font size */
+}
+
+/* Input fields style */
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="password"] {
+  flex: 1;
+  padding: 10px 14px;
+  border: 1.8px solid #ccc;
+  border-radius: 7px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+.form-row input[type="text"]:focus,
+.form-row input[type="email"]:focus,
+.form-row input[type="password"]:focus {
+  border-color: #f1c40f;
+  outline: none;
+}
+
+/* Submit button */
+.hero input[type="submit"] {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.hero input[type="submit"]:hover {
+  background-color: #d4af37;
+}
+/* ********** registration form close */
+
+        .features {
+            background-color: #ffffff;
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .features h2 {
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #333;
+        }
+
+        .feature-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 40px;
+        }
+
+        .feature {
+            flex: 1 1 250px;
+            max-width: 300px;
+            background-color: #f5f5f5;
+            padding: 30px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+
+        .feature h3 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .feature p {
+            font-size: 16px;
+            color: #555;
+        }
+        
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .hero p { font-size: 18px; }
+            .feature-grid { flex-direction: column; align-items: center; }
+        }
+  
+        
+        /*ALready have account or Don't have account*/ 
+         .login-link {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.login-link a {
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+  /*close *****/
+  
+  
+  body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f1f3f6;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 12px 0;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul li.active a {
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(255,255,255,0.2);
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.main-content {
+  flex: 1;
+  padding: 40px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bookings-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bookings-table th, .bookings-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+.bookings-table thead {
+  background-color: #007bff;
+  color: white;
+}
+
+.bookings-table tbody tr:hover {
+  background-color: #f1f1f1;
+}
